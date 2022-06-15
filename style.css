@@ -1,0 +1,253 @@
+html, body, header, ul, li, img, p, h1, h2, h3, nav, div, a, section {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    max-width: 100%;
+
+    
+}
+ .cabecalho {
+    background-image: url("./img/src/unsplash_HvZDCuRnSaY.png");
+    background-size: cover;
+    width: 100%;
+    height: 562px;  
+}
+
+.cabecalho > .cor {
+    background-color: rgba(25, 1, 122, 0.9);;
+    height: 562px;  
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container .logo img {
+    width: 192px;
+    height: 88px;
+    margin-top: 54px;
+    margin-bottom: 45.6px;
+
+
+}
+
+.container .textos {
+    color: #F1F3F5;  
+}
+
+.container .textos h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px; 
+    margin-bottom: 32px; 
+}
+
+.container .textos p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+
+}
+
+.container .textos .espaco {
+    margin-top: 20px;
+
+}
+.container .botao button {
+    background-color: #BC00FF;
+    border: 2px solid #BC00FF;
+    border-radius: 8px;
+    width: 296px;
+    height: 48px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 32px;
+
+}
+
+ .corpo {
+    background: #E9ECEF;
+}
+
+.corpo .container .principal{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+    width: 73px;
+    height: 33px;
+    padding: 45px 0;
+
+}
+
+.corpo .container .espaco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .primeiro {
+    width: 60%;
+}
+
+.container .primeiro ul {
+    display: flex;
+    flex-direction: column;
+    padding: 38px;
+    gap: 28px;
+
+}
+
+.container .primeiro  li {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 818px;
+    height: 307px;
+    padding: 38px;
+    gap: 28px;
+
+}
+
+.container .primeiro  li h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+    margin-bottom: 18px;
+    
+
+}
+.container .primeiro  li span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343A40;
+    margin-right: 32px;
+
+
+}
+.container .primeiro  li p {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #343A40;
+    margin-bottom: 36px;
+
+}
+.container .primeiro  li .final {
+    display: flex;
+    justify-content: space-between;
+}
+.container .primeiro  li .final span {
+    background: #DEE2E6;
+    border-radius: 8px;
+    width: 111px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+
+
+}
+.container .primeiro  li .final button {
+    font-family: 'Poppins', sans-serif;;
+    color: white;
+    width: 150px;
+    height: 38px;
+    background: #BC00FF;
+    border: 2px solid #BC00FF;
+    border-radius: 8px; 
+    padding: 12px 28px;
+    gap: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+
+.container .segundo {
+    width: 40%;
+}
+
+.container .segundo ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px; 
+    padding: 38px;
+   
+    
+}
+
+.container .segundo li {
+    width: 503px;
+    background: #FFFFFF;
+    padding: 32px;
+
+
+}
+
+.container .segundo li .nomeGrande {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+    height: 20px;
+}
+
+.container .segundo li {
+    background: #FFFFFF;
+    border-bottom: 2px solid #F1F3F5;
+
+}
+
+.container .segundo li p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #212529;
+}
+
+.container .segundo li .lixeira {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .segundo li .lixeira button {
+    background: #F1F3F5;
+    border: 2px solid #F1F3F5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.segundo li .cidades {
+    display: flex;
+    gap: 32px;
+
+}
+
+.container .segundo li .cidades p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343A40;
+    height: 22px;
+
+}
+
+
+
+
+
